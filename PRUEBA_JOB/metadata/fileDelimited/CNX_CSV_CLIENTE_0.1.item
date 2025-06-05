@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_k3fZwEJEEfC0taCBUqdkEA" name="CNX_CSV_CLIENTE" dataPackage="_k3jEIEJEEfC0taCBUqdkEA" Server="Localhost 127.0.0.1" FilePath="C:/TALEND_resources/CAP/Sources/BaseDeDatos/CLIENTE.csv" Encoding="ISO-8859-1" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom UTF8"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_k3jEIEJEEfC0taCBUqdkEA" name="default" dataManager="_k3fZwEJEEfC0taCBUqdkEA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_k3jEIUJEEfC0taCBUqdkEA" id="_Y6yXMEJEEfC0taCBUqdkEA" label="CLIENTE">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_k3jEIkJEEfC0taCBUqdkEA" label="CEDULA" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_k3jEI0JEEfC0taCBUqdkEA" label="NOMBRES" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_k3jEJEJEEfC0taCBUqdkEA" label="APELLIDOS" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_k3jEJUJEEfC0taCBUqdkEA" label="DIRECCION_CASA" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_k3jEJkJEEfC0taCBUqdkEA" label="DIRECCION_OFICINA" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_k3jEJ0JEEfC0taCBUqdkEA" label="TELEFONO_CASA" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_k3jEKEJEEfC0taCBUqdkEA" label="TELEFONO_OFICINA" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
